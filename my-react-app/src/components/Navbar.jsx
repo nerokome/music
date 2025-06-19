@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex justify-between h-18 w-full mx-auto px-4 font-semibold text-xl text-gray-800 sm:text-gray-200 bg-transparent'>
+    <div className='flex justify-between h-20 w-full mx-auto px-4 font-semibold text-xl text-gray-800 sm:text-gray-200 bg-transparent'>
       <div className='flex text-amber-100 pt-4'>
         <CiWallet size={50} />
         <IoMusicalNoteOutline  size={50}/>
