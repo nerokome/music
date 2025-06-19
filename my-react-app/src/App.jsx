@@ -6,6 +6,9 @@ import Hero from './components/Hero'
 import Vision from './components/Vision'
 import Join from './components/Join'
 import Contact from './components/Contact'
+import Resources from './components/Resources'
+import Space from './components/Space'
+import End from './components/End'
 
 function App() {
   
@@ -17,8 +20,12 @@ function App() {
       ">
         <Hero />
         <Vision />
+        <Space/>
+        <Resources/>
+        <Space/>
         <Join />
         <Contact />
+        <End/>
       </div>
     </>
   )
