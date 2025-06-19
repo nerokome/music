@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const Vision = () => {
+const [tappedIdx, setTappedIdx] = React.useState(null);
+
 return (
     <div className='flex flex-col items-center justify-center min-h-screen bg-gray-900 text-gray-100 px-5 sm:px-5'>
         <h1 className='text-4xl font-bold mb-6 mt-5'>Our Vision</h1>
@@ -28,7 +30,16 @@ return (
                     transition={{ duration: 0.8, ease: "easeOut", delay: idx * 0.2 }}
                     viewport={{ once: true, amount: 0.3 }}
                 >
-                    <div className="relative w-full h-full">
+                    <motion.div
+                        className="relative w-full h-full"
+                        whileTap={{ scale: 0.93, rotate: -3 }}
+                        animate={tappedIdx === idx ? { scale: 1.08, rotate: 3 } : { scale: 1, rotate: 0 }}
+                        transition={{ type: "spring", stiffness: 300, damping: 15 }}
+                        onTap={() => {
+                            setTappedIdx(idx);
+                            setTimeout(() => setTappedIdx(null), 350);
+                        }}
+                    >
                         <img
                             src={card.src}
                             alt={card.alt}
@@ -40,7 +51,7 @@ return (
                                 {card.title}
                             </h2>
                         </div>
-                    </div>
+                    </motion.div>
                 </motion.li>
             ))}
         </ul>
