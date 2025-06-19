@@ -11,13 +11,15 @@ function App() {
   
   return (
     <>
-      <div className=' w-full min-h-screen bg-cover bg-center' >
+      <div className="w-full min-h-screen bg-cover bg-center
+        sm:bg-contain sm:bg-top
+        md:bg-cover md:bg-center
+      ">
         <Hero />
-        <Vision/>
+        <Vision />
         <Join />
-        <Contact/>
+        <Contact />
       </div>
-     
     </>
   )
 }
