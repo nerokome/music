@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex justify-evenly items-center h-24 w-full mx-auto px-4 font-semibold text-xl text-gray-800 sm:text-gray-200 bg-transparent'>
+    <div className='flex justify-between h-24 w-full mx-auto px-4 font-semibold text-xl text-gray-800 sm:text-gray-200 bg-transparent'>
       <div className='flex text-amber-100'>
         <CiWallet size={50} />
         <IoMusicalNoteOutline  size={50}/>
@@ -42,12 +42,12 @@ const Navbar = () => {
           <Link to="/Contact">Contacts</Link>
         </li>
       </ul>
-      <div className='hidden lg:flex gap-3'>
-        <button className="bg-red-400 hover:bg-red-500 text-white text-sm font-mono py-2 px-3 sm:px-4
+      <div className='hidden lg:flex gap-3 p-3'>
+        <button className="bg-red-400 hover:bg-red-500 text-white text-sm font-mono py-2 px-3 h-10 sm:px-4 sm:py-2
              rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
               Sign in
             </button>
-             <button className="bg-red-400 hover:bg-red-500 text-white text-sm font-mono py-2 px-3 sm:px-4
+             <button className="bg-red-400 hover:bg-red-500 text-white text-sm font-mono py-2 px-3 h-10 sm:px-4
              rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
               Sign up
             </button>
