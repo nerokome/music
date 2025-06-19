@@ -8,7 +8,7 @@ const Contact = () => {
       <p className="font-mono text-2xl sm:text-3xl text-blue-300">Wagmi</p>
       <div className="flex flex-col mt-4 sm:mt-5">
         <p className="text-sm sm:text-md text-gray-400">
-          We look forward to connecting with you! Please do not hesitate to reach out to us.
+          We look forward to connecting with you!
         </p>
         <p className="text-sm sm:text-md text-gray-400">
           Please do not hesitate to reach out to us.
