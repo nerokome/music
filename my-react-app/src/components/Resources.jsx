@@ -35,9 +35,9 @@ const Resources = () => {
 
       <div className="container relative z-10">
         <h1 className="text-4xl font-bold mb-6 text-center">Resources</h1>
-        <p className='text-lg sm:text-md flex items-center justify-center'>Your gateway to the tools, knowledge, and assets that power the fusion of music and blockchain. Whether you’re a developer, artist,
+        <p className='text-sm sm:text-lg flex items-center justify-center'>Your gateway to the tools, knowledge, and assets that power the fusion of music and blockchain. Whether you’re a developer, artist,
              or community builder, you’ll find guides, templates, and APIs designed to be composable, open, 
-            and creative. From minting music NFTs to integrating decentralized audio systems, this hub is built to help you remix the future</p>
+            and creative. From minting music NFTs to integrating decentralized audio systems, this hub is built to help you remix the future.</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center mt-10">
           {resources.map((item, index) => {
