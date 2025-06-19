@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between h-24 w-full mx-auto px-4 font-semibold text-xl text-gray-800 sm:text-gray-200 bg-transparent'>
-      <div className='flex text-amber-100'>
+      <div className='flex text-amber-100 pt-4'>
         <CiWallet size={50} />
         <IoMusicalNoteOutline  size={50}/>
       </div>
@@ -53,8 +53,8 @@ const Navbar = () => {
             </button>
       </div>
 
-      <div onClick={handleNav} className='block lg:hidden z-10'>
-        {!nav ? <AiOutlineMenu color='gray' size={20} /> : <AiOutlineClose size={20} color='gray' />}
+      <div onClick={handleNav} className='block lg:hidden z-10 pt-6'>
+        {!nav ? <AiOutlineMenu color='gray' size={30} /> : <AiOutlineClose size={20} color='gray' />}
       </div>
 
       <div
