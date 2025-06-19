@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>,
 )
 
-// Add this component above or in a separate file and import it
+
 
 function NavbarWithScroll() {
   const [scrolled, setScrolled] = useState(false);
