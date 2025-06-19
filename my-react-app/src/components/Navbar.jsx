@@ -19,7 +19,7 @@ const Navbar = () => {
         <IoMusicalNoteOutline  size={50}/>
       </div>
 
-      <ul className='hidden lg:flex'>
+      <ul className='hidden lg:flex pt-5'>
         <li className='p-4 hover:text-red-400'>
           <Link to="/Products">Home</Link>
         </li>
@@ -42,7 +42,7 @@ const Navbar = () => {
           <Link to="/Contact">Contacts</Link>
         </li>
       </ul>
-      <div className='hidden lg:flex gap-3 p-3'>
+      <div className='hidden lg:flex gap-3 p-3 mt-4'>
         <button className="bg-red-400 hover:bg-red-500 text-white text-sm font-mono py-2 px-3 h-10 sm:px-4 sm:py-2
              rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
               Sign in
