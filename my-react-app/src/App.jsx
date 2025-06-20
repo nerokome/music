@@ -14,7 +14,7 @@ function App() {
   
   return (
     <>
-      <div className="w-full min-h-screen bg-cover bg-center sm:overflow-x-hidden
+      <div className="w-full min-h-screen bg-cover bg-center overflow-x-hidden
         sm:bg-contain sm:bg-top
         md:bg-cover md:bg-center
       ">
